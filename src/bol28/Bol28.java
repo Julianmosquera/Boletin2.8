@@ -15,7 +15,7 @@ public class Bol28 {
         System.out.println("Introduce los grados centigrados:");
         centigrados=dato.nextFloat();
         kelvin=centigrados+273;
-        farenheit= (float) (centigrados*1.8+32);
+        farenheit=centigrados*1.8f+32;
         System.out.println("kelvin:"+kelvin);
         System.out.println("farenheit:"+farenheit);
         
